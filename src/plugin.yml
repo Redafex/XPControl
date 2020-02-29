@@ -6,3 +6,9 @@ version: 1.0.0
 commands:
   XPC:
     description: Let's you able to control a plyers xp even when they're offline!
+    permission: xpc.admin
+
+
+permissions:
+  xpc.admin:
+    default: op

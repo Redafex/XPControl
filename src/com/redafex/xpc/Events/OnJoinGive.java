@@ -47,7 +47,15 @@ public class OnJoinGive implements Listener {
 
     @EventHandler
     public void onFirstJoin(PlayerJoinEvent e){
-        
+        Player p = e.getPlayer();
+
+        if (!p.hasPlayedBefore()){
+            if (Config.get().get("Settings.Default") == null){
+                return;
+            }
+            int howMuch = Config.get().getInt("Settings.Default");
+            p.setLevel(howMuch);
+        }
     }
 
 

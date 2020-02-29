@@ -1,7 +1,7 @@
 package com.redafex.xpc.Command;
 
-import com.redafex.XPC.Utils.Config;
-import com.redafex.XPC.Utils.Text;
+import com.redafex.xpc.Utils.Config;
+import com.redafex.xpc.Utils.Text;
 import org.bukkit.Bukkit;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.command.Command;
@@ -18,16 +18,29 @@ public class Main implements CommandExecutor {
 
 
 
-    private ArrayList<String> arguments = new ArrayList<>(Arrays.asList("set" , "add", "remove", "wipe", "double"));
+    private ArrayList<String> arguments = new ArrayList<>(Arrays.asList("set" , "add", "remove", "wipe", "double", "divide", "Default"));
 
     @Override
     public boolean onCommand(CommandSender commandSender, Command command, String s, String[] args) {
+
         if (args.length == 0){
             Text.sendMSG(commandSender, "&cPlease provide more arguments!");
             return true;
         }
 
         if (arguments.contains(args[0])){
+
+            if (args[0].equalsIgnoreCase("default")){
+                if (!isStringInteger(args[1])){
+                    Text.sendMSG(commandSender, "&a" + args[1] + " &cIsn't a number");
+                    return true;
+                }
+
+                int def = Integer.parseInt(args[1]);
+                Config.get().set("Settings.Default", def);
+                Text.sendMSG(commandSender, "&aWhenever a new player join their xp is going to be &c" + def + "&a!");
+                return true;
+            }
 
             if (args[0].equalsIgnoreCase("wipe")){
                 GiveExp(commandSender, args[1], 0, "&a" + args[1] + "'s XP has been successfully wiped!", "&aSince " + args[1] + " is offline, Their xp will be wiped as soon as they join!", "wipe");
@@ -82,7 +95,7 @@ public class Main implements CommandExecutor {
         if(p == null){
             OfflinePlayer of = Bukkit.getOfflinePlayer(player);
             if (of == null){
-                Text.sendMSG(cs, "&a" + player + " &cHas never logged into this server before!");
+                Text.sendMSG(cs, "&a" + player + " &cDoesn't exist!");
                 return;
             } else {
                 UUID uuid = of.getUniqueId();
