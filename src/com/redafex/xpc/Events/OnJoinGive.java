@@ -44,4 +44,11 @@ public class OnJoinGive implements Listener {
         Config.get().set(uuid.toString(), null);
         Config.save();
     }
+
+    @EventHandler
+    public void onFirstJoin(PlayerJoinEvent e){
+        
+    }
+
+
 }
