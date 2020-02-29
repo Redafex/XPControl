@@ -1,0 +1,8 @@
+name: XPControl
+main: com.redafex.xpc.Launcher
+version: 1.0.0
+
+
+commands:
+  XPC:
+    description: Let's you able to control a plyers xp even when they're offline!
