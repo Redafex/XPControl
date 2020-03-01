@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="XPControl:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="141b5b44-11a9-44cb-9e54-6a3288fed918" name="Default Changelist" comment="">
+    <list default="true" id="141b5b44-11a9-44cb-9e54-6a3288fed918" name="Default Changelist" comment="Added TabCompleter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/redafex/xpc/Command/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/redafex/xpc/Command/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/redafex/xpc/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/redafex/xpc/Launcher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,10 +27,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spigot-1.8.8.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -48,6 +51,10 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added TabCompleter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added TabCompleter" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="488" y="68" key="#com.intellij.ide.util.MemberChooser" timestamp="1583048378720">
       <screen x="0" y="0" width="1366" height="728" />
@@ -57,14 +64,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="335" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583048674441" />
-    <state x="389" y="106" key="FileChooserDialogImpl" timestamp="1582974685912">
+    <state x="389" y="106" key="FileChooserDialogImpl" timestamp="1583048854866">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="389" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582974685912" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1582974690809">
+    <state x="389" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583048854866" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1583048856865">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582974690809" />
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583048856865" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1582975196239">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
