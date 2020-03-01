@@ -12,6 +12,7 @@ public class Launcher extends JavaPlugin {
     public void onEnable() {
         setConfig();
         getCommand("XPC").setExecutor(new Main());
+        getCommand("XPC").setExecutor(new Main());
         Bukkit.getPluginManager().registerEvents(new OnJoinGive(), this);
     }
 

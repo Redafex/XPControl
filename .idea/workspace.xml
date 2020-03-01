@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="141b5b44-11a9-44cb-9e54-6a3288fed918" name="Default Changelist" comment="" />
+    <list default="true" id="141b5b44-11a9-44cb-9e54-6a3288fed918" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/redafex/xpc/Command/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/redafex/xpc/Command/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/redafex/xpc/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/redafex/xpc/Launcher.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YTlsVvLBZ5BiAuGdSJeUeZxYWI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -42,6 +49,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="488" y="68" key="#com.intellij.ide.util.MemberChooser" timestamp="1583048378720">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="68" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1583048378720" />
+    <state x="335" y="0" key="CommitChangelistDialog2" timestamp="1583048674441">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="335" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583048674441" />
     <state x="389" y="106" key="FileChooserDialogImpl" timestamp="1582974685912">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -54,5 +69,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1582975196239" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1583048616035">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1583048616035" />
   </component>
 </project>
